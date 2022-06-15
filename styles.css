@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.main{
+  margin-top: 140px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
 body {
   background-color: #fffbf7;
 }
@@ -8,8 +16,7 @@ h1 {
 }
 
 p {
-  color: #8b8b8bcc;
-  font-family: Verdana;
+  color: #000000cc;
   font-size: 20px;
 }
 
@@ -24,9 +31,10 @@ button {
   margin-left: 20px;
   margin-right: 20px; */
 }
-
 li {
   display: inline;
+  margin: 0 25px ;
+  color: #025157;
 }
 
 .header > *{
@@ -37,31 +45,55 @@ li {
   vertical-align: middle;
 } 
 
+.navbar ul{
+  display: inline;
+}
+
 .logo{
   width: 15%;
   text-align: center;
 }
 
 .logo > img {
-  width: 15%;
+  width: 21%;
 }
 
 .navbar{
   width: 70%;
-  text-align: center;
+  text-align: left;
   color: #025157;
   font-weight: bold;
+  height: 45px;
+  font-family: sans-serif;
+}
+
+li {
+  display: inline;
+  margin: 0 25px ;
+  color: #025157;
 }
 
 .actions{
   width: 14%;
-  text-align: center;
+  text-align: left;
   font-size:14px;
   font-weight: bold;
 }
 
-
-.main{
-  margin-top: 140px;
-  text-align: center;
+.actions > * {
+  margin: 0 10px
 }
+
+.actions a {
+  color: #67b54b;
+}
+
+.actions button {
+  color: white;
+  background-color: #67b54b;
+  padding: 12px 14px;
+  border-style: none;
+  border-radius: 5px;
+}
+
+
