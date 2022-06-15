@@ -17,3 +17,44 @@ button {
     color: #fff;
     background-color: #F567DD
 }
+
+.header {
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+li {
+  display: inline;
+}
+
+.header > *{
+  display: inline-block;
+  font-size: 16px;
+  line-height: 45px;
+  height:100%;
+  vertical-align: middle;
+} 
+
+.logo{
+  width: 15%;
+  text-align: center;
+}
+
+.logo > img {
+  width: 15%;
+}
+
+.navbar{
+  width: 70%;
+  text-align: center;
+  color: #025157;
+  font-weight: bold;
+}
+
+.actions{
+  width: 14%;
+  text-align: center;
+  font-size:14px;
+  font-weight: bold;
+}
