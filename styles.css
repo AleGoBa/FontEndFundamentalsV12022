@@ -8,6 +8,7 @@
 
 body {
   background-color: #fffbf7;
+  font-family: 'Roboto', sans-serif;
 }
 
 h1 {
@@ -22,7 +23,7 @@ p {
 
 button {
     color: #fff;
-    background-color: #F567DD
+    background-color: #6abf4a
 }
 
 .header {
@@ -94,6 +95,30 @@ li {
   padding: 12px 14px;
   border-style: none;
   border-radius: 5px;
+}
+
+.promo{
+  display: flex;
+  width: 70%;
+  margin: 100px auto;
+  align-items: center;
+
+}
+
+.publish{
+  margin-left: 30px;
+}
+
+.video-and-arrow{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video-and-arrow img{
+  height:5rem;
+  width: 5rem;
+
 }
 
 
