@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 .main{
-  margin-top: 140px;
+  margin-top: 285px;
   text-align: center;
   font-family: 'Roboto', sans-serif;
 }
@@ -32,6 +32,18 @@ button {
   margin-left: 20px;
   margin-right: 20px; */
 }
+
+.fixed-header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+}
+
+
+
+
 li {
   display: inline;
   margin: 0 25px ;
