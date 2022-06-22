@@ -133,4 +133,35 @@ li {
 
 }
 
+.feature{
+  display: grid;
+  padding: 1rem 10rem;
+  grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+  background-color: #145157
+}
+
+.feature article section{
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 3rem;
+  margin: 1rem;
+  border-radius: 10px;
+  background-color: white
+}
+
+.feature-image {
+  text-align: center;
+}
+
+.feature-image img{
+  width: 40%;
+  margin-top: 1rem;
+}
+
+.feature-ref{
+  color: #67b54b;
+  font-weight: bold;
+}
+
+
 
