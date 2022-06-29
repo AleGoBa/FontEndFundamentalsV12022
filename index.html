@@ -4,13 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>Matcha</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <section class="fixed-header">
+    <!-- <section class="fixed-header">
         <header class="header">
         <a class="logo">
             <img src="https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png">
@@ -30,18 +37,54 @@
             <button type="button">Free trial</button>
         </div>
     </header>
-    </section>
-    
+    </section> -->
+    <nav class="navbar w-100 navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png" alt="" width="30"
+                    height="24">
+            </a>
+            <a class="navbar-brand" href="#">matcha</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Templates</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Customers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Resources</a>
+                    </li>
+                </ul>
+                <a class="text-success" href="">Sign In</a>
+                <button class="btn btn-success ms-2" type="submit">Free trial</button>
+            </div>
+        </div>
+    </nav>
 
     <section class="main">
         <h1>Build your. Build your business</h1>
         <p>Instantly publish articles, drive more traffic, grow your email list. , and see your
             blog's impact on sales
         <p>
-        <div style="width: 400px; height: auto">
-            <img style="object-fit: contain; width: inherit; height: auto;"
-                src="https://ignos.blog/wp-content/uploads/2021/04/capterra.png" />
-        </div>
+        <figure>
+            <img src="https://ignos.blog/wp-content/uploads/2021/04/capterra.png" />
+        </figure>
         <form action="">
             <input type="email" />
             <button type="submit">Enviar</button>
@@ -55,17 +98,18 @@
     <section class="promo">
         <aside class="video-and-arrow">
             <video controls
-            poster="https://cdn.videvo.net/videvo_files/video/premium/video0036/thumbnails/computer_code00_small.jpg">
-            <source
-                src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4"
-                type="mp4">
-            <source
-                src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4"
-                type="webm">
-        </video>
-        <img src="https://images.vexels.com/media/users/3/206269/isolated/preview/5bf110f14d50531aaca26c251c3441aa-doodle-de-flecha-vertical.png">
+                poster="https://cdn.videvo.net/videvo_files/video/premium/video0036/thumbnails/computer_code00_small.jpg">
+                <source
+                    src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4"
+                    type="mp4">
+                <source
+                    src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4"
+                    type="webm">
+            </video>
+            <img
+                src="https://images.vexels.com/media/users/3/206269/isolated/preview/5bf110f14d50531aaca26c251c3441aa-doodle-de-flecha-vertical.png">
         </aside>
-        
+
         <aside class="publish">
             <h1>Publish to your blog in minutes</h1>
             <p>Your blog is your most powerful asset to build and retain a loyal audience.
@@ -86,10 +130,10 @@
         <article>
             <section>
                 <div>
-                <img style="width:30px;"src="https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png">
-                <h3>Fill your blog with engaging articles</h3>
-                <p>Publish to yout blog in less time than it takes to drink your morning coffe</p>
-                <a class="feature-ref">Publish instantly 	→</a>
+                    <img style="width:30px;" src="https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png">
+                    <h3>Fill your blog with engaging articles</h3>
+                    <p>Publish to yout blog in less time than it takes to drink your morning coffe</p>
+                    <a class="feature-ref">Publish instantly →</a>
                 </div>
                 <div class="feature-image">
                     <img src="https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png">
@@ -99,10 +143,10 @@
         <article>
             <section>
                 <div>
-                <img style="width:30px"src="https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png">
-                <h3>Fill your blog with engaging articles</h3>
-                <p>Publish to yout blog in less time than it takes to drink your morning coffe</p>
-                <a class="feature-ref">Publish instantly 	→</a>
+                    <img style="width:30px" src="https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png">
+                    <h3>Fill your blog with engaging articles</h3>
+                    <p>Publish to yout blog in less time than it takes to drink your morning coffe</p>
+                    <a class="feature-ref">Publish instantly →</a>
                 </div>
                 <div class="feature-image">
                     <img src="https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png">
@@ -112,10 +156,10 @@
         <article>
             <section>
                 <div>
-                <img style="width:30px"src="https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png">
-                <h3>Fill your blog with engaging articles</h3>
-                <p>Publish to yout blog in less time than it takes to drink your morning coffe</p>
-                <a class="feature-ref">Publish instantly 	→</a>
+                    <img style="width:30px" src="https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png">
+                    <h3>Fill your blog with engaging articles</h3>
+                    <p>Publish to yout blog in less time than it takes to drink your morning coffe</p>
+                    <a class="feature-ref">Publish instantly →</a>
                 </div>
                 <div class="feature-image">
                     <img src="https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png">
@@ -125,10 +169,10 @@
         <article>
             <section>
                 <div>
-                <img style="width:30px"src="https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png">
-                <h3>Fill your blog with engaging articles</h3>
-                <p>Publish to yout blog in less time than it takes to drink your morning coffe</p>
-                <a class="feature-ref">Publish instantly 	→</a>
+                    <img style="width:30px" src="https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png">
+                    <h3>Fill your blog with engaging articles</h3>
+                    <p>Publish to yout blog in less time than it takes to drink your morning coffe</p>
+                    <a class="feature-ref">Publish instantly →</a>
                 </div>
                 <div class="feature-image">
                     <img src="https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png">
